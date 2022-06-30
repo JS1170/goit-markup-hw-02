@@ -58,19 +58,6 @@ letter-spacing: -0.015em; */
         color: #000000;
 }
 
-.logo .logo-studio:hover {
-        color: var(--accent-color);
-}
-
-/* .list {
-        list-style: none;
-} */
-
-/* header nav */
-
-/* .header ul {
-                list-style: none;     
-} */
 
 .header-nav a{
         color: var(--primary-text-color);
@@ -202,6 +189,7 @@ letter-spacing: -0.015em; */
                 font-size: 16px;
                 line-height: 1.875;
                 letter-spacing: 0.06em;
+                cursor: pointer;
                 
 }
 
@@ -501,8 +489,6 @@ letter-spacing: -0.015em; */
       
 }
 
-
-
 .footer-adress {
                 position: absolute;
                 width: 231px;
@@ -584,6 +570,7 @@ letter-spacing: -0.015em; */
                 text-align: center;
                 letter-spacing: 0.03em;
                 color: var(--primary-text-color);
+                cursor: pointer;
                 
 }
 
