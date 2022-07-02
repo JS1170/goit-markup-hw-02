@@ -7,18 +7,18 @@
 
 body {
         background-color: #FFFFFF;   
-        margin: 0 auto;
+        margin: auto;
         font-family: 'Roboto', sans-serif;
+        width: 1600px;
         
 }
 
 ul {
         list-style: none;
+        text-decoration: none;
 }
 
-link {
-        text-decoration: none ;
-}
+
 
 /* color: var(--primary-text-color);
 display: flex;
@@ -37,12 +37,24 @@ letter-spacing: -0.015em; */
 /* Шрифт другорядний roboto */
 
 
-
+.header-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: var(--primary-text-color);
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.71;
+                letter-spacing: 0.02em;
+                text-decoration: none;
+                font-style: normal;
+}
+        
 .logo {
-                color: var(--accent-color);
-                position: absolute;
-                width: 145px;
-                height: 31px;
+        position: absolute;
+        width: 145px;
+        height: 31px;
+        color: var(--accent-color);
                 left: 215px;
                 top: 24px;
                 font-family: 'Raleway';
@@ -59,15 +71,6 @@ letter-spacing: -0.015em; */
 }
 
 
-.header-nav a{
-        color: var(--primary-text-color);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        font-style: normal;
-}
 
 
 .header-nav a:hover,
@@ -84,13 +87,13 @@ letter-spacing: -0.015em; */
 }
 
 
-/* .current {
+.current {
         color: var(--accent-color);
 }
 
-.header-nav .current {
+.header-studio .current {
         color: var(--accent-color);
-} */
+}
 
 
 
@@ -101,6 +104,8 @@ letter-spacing: -0.015em; */
                 height: 16px;
                 left: 453px;
                 top: 32px;
+                text-decoration: none;
+                color: var(--primary-text-color);
                         
 }
 
@@ -113,6 +118,8 @@ letter-spacing: -0.015em; */
                 height: 16px;
                 left: 552px;
                 top: 32px;
+                text-decoration: none;
+                        color: var(--primary-text-color);
                
 }
 
@@ -124,7 +131,8 @@ letter-spacing: -0.015em; */
         height: 16px;
         left: 679px;
         top: 32px;
-        
+        text-decoration: none;
+        color: var(--primary-text-color);
 }
 
 .auth-mail {
@@ -631,6 +639,9 @@ letter-spacing: -0.015em; */
         left: 495px;
         top: 174px;
         border-radius: 4px;
+        display: flex;
+                align-items: center;
+                justify-content: center;
         
 }
 
@@ -675,7 +686,10 @@ letter-spacing: -0.015em; */
 /* Works */
 
 /* block works 1 */
-
+.portfolio-works {
+        margin: 0;
+        padding: 0;
+}
 .portfolio-works li{
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
@@ -685,6 +699,7 @@ letter-spacing: -0.015em; */
 .portfolio-works p {
         margin: 24px;
         color: var(--title-text-color);
+
 }
 
 .portfolio-works h3 {
