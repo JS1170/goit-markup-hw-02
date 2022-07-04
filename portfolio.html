@@ -18,38 +18,49 @@
 
     <!-- шапка -->
     <header class="header">
-        <nav>
+        <div class="nav-container container">
             <a href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
-            <ul class="header-nav">
-                <li><a href="./index.html" class="header-studio">Студия</a></li>
-                <li><a href="/" class="header-portfolio active">Портфолио</a></li>
-                <li><a href="" class="header-contacts">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="auth-nav">
-            <li>
-                <a href="mailto:info@devstudio.com" class="auth-mail">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="auth-tel">+38 096 111 11 11</a>
-            </li>
-        </ul>
+                <nav class="header-nav">
+                    <ul class="header-list list">
+                        <li><a href="./index.html" class="header-list-nav">Студия</a></li>
+                        <li><a href="/" class="header-list-nav">Портфолио</a></li>
+                        <li><a href="" class="header-list-nav">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="auth-nav">
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="auth-mail">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380961111111" class="auth-tel">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+        </div>
     </header>
 
     <main>
-        
- 
-
-    <section>
-            <h1></h1>
-    <!-- filters -->
-            <ul class="filters">
-                <li class="all-button" type="button">Все</li>
-                 <li class="sites-button" type="button">Веб сайты</li>
-                <li class="app-button" type="button">Приложения</li>
-                <li class="design-button" type="button">Дизайн</li>
-                <li class="marketing-button" type="button">Маркетинг</li>
+    <section class="main-box section">
+        <div class="container">
+            <h1 class="main-title"></h1>
+            <ul class="filters list">
+                <li class="item">
+                    <button type="button" class="item-button">Все</button>
+                </li>
+                <li class="item">
+                    <button type="button" class="item-button">Все сайты</button>
+                </li>
+                <li class="item">
+                    <button type="button" class="item-button">Приложения</button>
+                </li>
+                <li class="item">
+                    <button type="button" class="item-button">Дизайн</button>
+                </li>
+                <li class="item">
+                    <button type="button" class="item-button">Маркетинг</button>
+                </li>
             </ul>
+        </div>
+
         <ul class="portfolio-works">
             <li class="technokryak">
                 <img src="./images/01technokryak.jpg" alt="Тенокряк веб-сайт" height="294" width="370" />
@@ -58,43 +69,59 @@
             </li>
             <li class="poster">
                 <img src="./images/02poster_orlean.jpg" alt="Постер New Orlean" height="294" width="370" />
+                <div>
                 <h3>Постер New Orlean vs Golden Star</h3>
                 <p>Приложение</p>
+            </div>
             </li>
             <li class="seafood">
                 <img src="./images/03seafood.jpg" alt="Ресторан Seafood" height="294" width="370" />
-                <h3>Ресторан Seafood</h3>
-                <p>Веб-сайт</p>
+                <div>
+                    <h3>Ресторан Seafood</h3>
+                    <p>Веб-сайт</p>
+                </div>
             </li>
             <li class="prime-works">
                 <img src="./images/04prime.jpg" alt="Проект Prime" height="294" width="370" />
-                <h3>Проект Prime</h3>
-                <p>Маркетинг</p>
+                <div>
+                    <h3>Проект Prime</h3>
+                    <p>Маркетинг</p>
+                </div>
             </li>
             <li class="boxes-works">
                 <img src="./images/05boxes.jpg" alt="Проект Boxes" height="294" width="370" />
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p>
+                <div>
+                    <h3>Проект Boxes</h3>
+                    <p>Приложение</p>
+                </div>
             </li>
             <li class="inspiration-works">
                 <img src="./images/06Inspiration.jpg" alt="Inspiration has no Borders" height="294" width="370" />
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p> 
+                <div>
+                    <h3>Inspiration has no Borders</h3>
+                    <p>Веб-сайт</p>
+                </div>
             </li>
             <li class="limited">
                 <img src="./images/07limit.jpg" alt="Издание Limited Edition" height="294" width="370" />
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p>
+                <div>
+                    <h3>Издание Limited Edition</h3>
+                    <p>Дизайн</p>
+                </div>
             </li>
             <li class="lab-works">
                 <img src="./images/08lab.jpg" alt="Проект LAB" height="294" width="370" />
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
+                <div>
+                    <h3>Проект LAB</h3>
+                    <p>Маркетинг</p>
+                </div>
             </li>
              <li class="growing-works">
                 <img src="./images/09growing.jpg" alt="Growing Business" height="294" width="370" />
-                <h3>Growing Business</h3>
-                <p>Приложение</p>
+                <div>
+                    <h3>Growing Business</h3>
+                    <p>Приложение</p>
+                </div>
             </li>
 
         </ul>
