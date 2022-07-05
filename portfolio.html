@@ -18,12 +18,12 @@
 
     <!-- шапка -->
     <header class="header">
-        <div class="nav-container container">
+        <div class="site-nav container">
             <a href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
                 <nav class="header-nav">
                     <ul class="header-list list">
                         <li><a href="./index.html" class="header-list-nav">Студия</a></li>
-                        <li><a href="/" class="header-list-nav">Портфолио</a></li>
+                        <li><a href="/" class="header-list-nav active">Портфолио</a></li>
                         <li><a href="" class="header-list-nav">Контакты</a></li>
                     </ul>
                 </nav>
@@ -39,9 +39,9 @@
     </header>
 
     <main>
-    <section class="main-box section">
-        <div class="container">
-            <h1 class="main-title"></h1>
+    <section class="main-box">
+        <h1 class="visually-hidden">Портфолио</h1>
+        <div class="container portfolio">
             <ul class="filters list">
                 <li class="item">
                     <button type="button" class="item-button">Все</button>
@@ -62,68 +62,69 @@
         </div>
 
         <ul class="portfolio-works">
-            <li class="technokryak">
-                <img src="./images/01technokryak.jpg" alt="Тенокряк веб-сайт" height="294" width="370" />
-                <h3>Технокряк</h3>
-                <p>Маркетинг</p>
+            <li class="portfolio-list">
+                    <img src="./images/01technokryak.jpg" alt="веб-сайт Тенокряк" height="294" width="370" />
+                    <div class="portfolio-links">
+                        <h2>Технокряк</h2>
+                        <p>Маркетинг</p>
+                    </div>
             </li>
-            <li class="poster">
+            <li class="portfolio-list">
                 <img src="./images/02poster_orlean.jpg" alt="Постер New Orlean" height="294" width="370" />
-                <div>
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Приложение</p>
-            </div>
-            </li>
-            <li class="seafood">
-                <img src="./images/03seafood.jpg" alt="Ресторан Seafood" height="294" width="370" />
-                <div>
-                    <h3>Ресторан Seafood</h3>
-                    <p>Веб-сайт</p>
-                </div>
-            </li>
-            <li class="prime-works">
-                <img src="./images/04prime.jpg" alt="Проект Prime" height="294" width="370" />
-                <div>
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
-                </div>
-            </li>
-            <li class="boxes-works">
-                <img src="./images/05boxes.jpg" alt="Проект Boxes" height="294" width="370" />
-                <div>
-                    <h3>Проект Boxes</h3>
+                <div class="portfolio-links">
+                    <h2>Постер New Orlean vs Golden Star</h2>
                     <p>Приложение</p>
                 </div>
             </li>
-            <li class="inspiration-works">
-                <img src="./images/06Inspiration.jpg" alt="Inspiration has no Borders" height="294" width="370" />
-                <div>
-                    <h3>Inspiration has no Borders</h3>
+            <li class="portfolio-list">
+                <img src="./images/03seafood.jpg" alt="веб-сайт Ресторан Seafood" height="294" width="370" />
+                <div class="portfolio-links">
+                    <h2>Ресторан Seafood</h2>
                     <p>Веб-сайт</p>
                 </div>
             </li>
-            <li class="limited">
-                <img src="./images/07limit.jpg" alt="Издание Limited Edition" height="294" width="370" />
-                <div>
-                    <h3>Издание Limited Edition</h3>
+            <li class="portfolio-list">
+                <img src="./images/04prime.jpg" alt="Маркетинг Проект Prime" height="294" width="370" />
+                <div class="portfolio-links">
+                    <h2>Проект Prime</h2>
+                    <p>Маркетинг</p>
+                </div>
+            </li>
+            <li class="portfolio-list">
+                <img src="./images/05boxes.jpg" alt="Приложение Проект Boxes" height="294" width="370" />
+                <div class="portfolio-links">
+                    <h2>Проект Boxes</h2>
+                    <p>Приложение</p>
+                </div>
+            </li>
+        <li class="portfolio-list">
+                <img src="./images/06Inspiration.jpg" alt="Веб-сайт Inspiration has no Borders" height="294" width="370" />
+                <div class="portfolio-links">
+                    <h2>Inspiration has no Borders</h2>
+                    <p>Веб-сайт</p>
+                </div>
+            </li>
+            <li class="portfolio-list">
+                <img src="./images/07limit.jpg" alt="Дизайн Издание Limited Edition" height="294" width="370" />
+                <div class="portfolio-links">
+                    <h2>Издание Limited Edition</h2>
                     <p>Дизайн</p>
                 </div>
             </li>
-            <li class="lab-works">
+            <li class="portfolio-list">
                 <img src="./images/08lab.jpg" alt="Проект LAB" height="294" width="370" />
-                <div>
-                    <h3>Проект LAB</h3>
+                <div class="portfolio-links">
+                    <h2>Проект LAB</h2>
                     <p>Маркетинг</p>
                 </div>
             </li>
-             <li class="growing-works">
-                <img src="./images/09growing.jpg" alt="Growing Business" height="294" width="370" />
-                <div>
-                    <h3>Growing Business</h3>
+            <li class="portfolio-list">
+                <img src="./images/09growing.jpg" alt="Развитие бизнеса" height="294" width="370" />
+                <div class="portfolio-links">
+                    <h2>Growing Business</h2>
                     <p>Приложение</p>
                 </div>
             </li>
-
         </ul>
     </section>
 
