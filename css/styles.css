@@ -221,14 +221,13 @@ li {
 
 /* Внимание к деталям */
 
-.benefits {
-        padding-bottom: 0;
-}
-
-
 .section {
         padding-top: 94px;
         padding-bottom: 94px;
+}
+
+.benefits {
+        padding-bottom: 0;
 }
 
 
